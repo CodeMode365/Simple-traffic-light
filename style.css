@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.traffic-light {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 100px;
+    height: 16.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lights {
+    height: 70px;
+    width: 70px;
+    /* background-color: black; */
+    color: wheat;
+    text-align: center;
+    border-radius: 50px;
+    margin: 3px;
+}
+
+.traffic-light #redLight {
+    background-color: rgb(142, 0, 0);
+}
+
+.traffic-light #greenLight {
+    background-color: rgb(1, 97, 1);
+}
+
+.traffic-light #yellowLight {
+    background-color: rgb(138, 150, 2);
+}
+
+.onlight {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 0 0 20px 10px;
+}
+
+#brightRed {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 20px 10px  rgb(255, 0, 0);
+    visibility: hidden;
+
+
+}
+
+#brightGreen {
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0 0 20px 10px rgb(0, 255, 0);
+    visibility: hidden;
+
+
+}
+
+#brightYellow {
+    background-color: rgb(234, 255, 0);
+    box-shadow: 0 0 20px 10px  rgb(234, 255, 0);
+    visibility: hidden;
+
+
+}
+h2{
+    position: absolute;
+    top: 10rem;
+     width:70px;
+    height: 70px;
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(0, 10, 1);
+    font-family: cursive;
+}
+.stick{
+    position: absolute;
+    bottom: 170px;
+    width: 30px;
+    height:  200px;
+    background-color: black;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+
+}
