@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: rgb(88, 140, 200);
 }
 
 .traffic-light {
@@ -82,7 +83,9 @@ h2{
     top: 10rem;
      width:70px;
     height: 70px;
-    background-color: lightblue;
+    background-color: rgba(173, 216, 230, 0.092);
+    border-radius: 50px;
+    
     align-items: center;
     text-align: center;
     display: flex;
@@ -100,5 +103,24 @@ h2{
     z-index: -1;
     justify-content: center;
     align-items: center;
+
+}
+
+h3{
+    position: absolute;
+    bottom: 100px;
+    width: 250px;
+    height:  50px;
+    /* background-color: black; */
+    /* z-index: -1; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 209, 209, 0.467);
+    transform: translate(-30%);
+    display: flex;
+    /* color: black; */
+    font-family: cursive;
+    font-size: 2rem;
+
 
 }
