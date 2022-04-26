@@ -121,6 +121,25 @@ h3{
     /* color: black; */
     font-family: cursive;
     font-size: 2rem;
+}
+/* for responsiveness */
 
-
+@media (max-height:650px) {
+    h2{
+        display: none;
+    }
+    .stick{
+        display: none;
+    }
+    
+}
+@media (max-height:600px) {
+    #message{
+        display: none;
+    }
+}
+@media (max-width:282px) {
+    #message{
+        width: 150px;
+    }
 }
